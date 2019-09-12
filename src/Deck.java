@@ -5,7 +5,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * The type Deck - represents a deck of playing cards.
  *
  * @author  Matthew Williams
- * @version 1.0
+ * @version 1.0.1
  * @since   2019-06-24
  */
 public class Deck {
@@ -26,8 +26,7 @@ public class Deck {
      * @param addJokers the add jokers
      */
     public Deck(boolean addJokers) {
-        int cardCounter = 0;
-        numOfCardsDealt = 0;
+        int cardCount = 0;
 
         if (addJokers) {
             deck = new Card[54];
@@ -39,7 +38,10 @@ public class Deck {
 
         for (int suit = 0; suit < 4; suit++)
             for (int rank = 1; rank <= Card.KING; rank++)
-                deck[cardCounter++] = new Card(suit, rank);
+                deck[cardCount++] = new Card(suit, rank);
+
+        
+        shuffle();
     }
 
     /**
