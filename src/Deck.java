@@ -40,7 +40,6 @@ public class Deck {
             for (int rank = 1; rank <= Card.KING; rank++)
                 deck[cardCount++] = new Card(suit, rank);
 
-        
         shuffle();
     }
 
