@@ -36,7 +36,7 @@ public class Deck {
             deck = new Card[52];
         }
 
-        for (int suit = 0; suit < 4; suit++)
+        for (int suit = 1; suit < 5; suit++)
             for (int rank = 1; rank <= Card.KING; rank++)
                 deck[cardCount++] = new Card(suit, rank);
 
