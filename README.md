@@ -5,26 +5,26 @@ It supports the representation of jokers, sorting of hands, and shuffling of col
 ## Functions
 
 ### [Card](https://github.com/maw101/CardDeck/blob/master/src/cardpack/Card.java)
-* getSuit
-* getSuitString
-* getRank
-* getRankString
-* toString
+*  getSuit
+*  getSuitString
+*  getRank
+*  getRankString
+*  toString
 
 ### [Deck](https://github.com/maw101/CardDeck/blob/master/src/cardpack/Deck.java)
-* dealCard
-* shuffle
-* getNumberOfCardsRemaining
-* containsJokers
+*  dealCard
+*  shuffle
+*  getNumberOfCardsRemaining
+*  containsJokers
 
 ### [Hand](https://github.com/maw101/CardDeck/blob/master/src/cardpack/Hand.java)
-* addCard
-* getCard
-* removeCard
-* sortByRank
-* sortBySuit
-* getCardCount
-* clear
+*  addCard
+*  getCard
+*  removeCard
+*  sortByRank
+*  sortBySuit
+*  getCardCount
+*  clear
 
 ## Version 
-* Version 1.0.1
+*  Version 1.0.1
