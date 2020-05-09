@@ -1,3 +1,5 @@
+package cardpack;
+
 /**
  * The type Card. Represents a playing card from a standard deck - including
  * the representation of jokers. Jokers can have a value - say for the case
